@@ -1,5 +1,9 @@
 package dev.andreinaarias.ex_list;
 
+import java.util.logging.Handler;
+
+import dev.andreinaarias.ex_list.service.HandlerWeekDays;
+
 /**
  * Hello world!
  */
@@ -12,6 +16,7 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        //HandlerWeekDays handlerWeekDays= new HandlerWeekDays();
+        //handlerWeekDays.render();
     }
 }
