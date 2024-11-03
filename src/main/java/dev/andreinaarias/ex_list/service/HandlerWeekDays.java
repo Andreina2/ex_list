@@ -15,6 +15,17 @@ public class HandlerWeekDays {
         createList();
     }
 
+    // Getter
+    public List<String> getDays() {
+        return days;
+    }
+
+    // Setter
+    public void setDays(List<String> days) {
+    this.days = days;
+    }
+
+    // Scope de un método, Scope de una clase
     public void createList() {
 
         //4 se ejecuta toda la logica
